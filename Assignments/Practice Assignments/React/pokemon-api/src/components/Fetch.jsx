@@ -12,10 +12,6 @@ const Fetch = (props) => {
         console.log(response.results);
         setPokemon(response.results);
       })
-
-      .catch((err) => {
-        console.log(err);
-      });
   };
   return (
     <div>
